@@ -1,0 +1,3 @@
+# Allows for creating a platform independent script to run jar
+gradle wrapper
+

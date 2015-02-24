@@ -1,3 +1,10 @@
 # Allows for creating a platform independent script to run jar
 gradle wrapper
 
+Usage
+  Create database "dummy" [create database dummy]
+  Configure database in src/main/resources/application.properties
+  mvn clean install
+  cp src/main/resources/sample-data.csv target/
+  java -jar target/dummy.batch-0.0.1-SNAPSHOT.jar
+
